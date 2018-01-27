@@ -1,0 +1,16 @@
+{
+    "github_address":"",
+    "project_list":[
+        {
+            "title":"fxp-plugin-video",
+            "link":"https://github.com/fangxiaopeng/fxp-plugin-video",
+            "desc":"一款基于海康威视视频SDK二次开发的Cordova插件，支持Android和IOS两个平台。功能如下：1，播放单路视频（支持指定通道）；2，播放单路/多路视频（自动适配单路/多路）；该插件已发布到npm。"
+        },
+        {
+            "title":"Personal Home Page",
+            "link":"https://github.com/fangxiaopeng/fangxiaopeng.github.io",
+            "desc":"开源Github个人主页，分为三个版本：1 native版（原生）2 Vue版3 BootStrap版。麻雀虽小五脏俱全，适合新手学习使用。原生版本迭代开发中，其他版本后续推出，敬请期待！"
+        }
+    ]
+}
+
