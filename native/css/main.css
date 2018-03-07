@@ -57,7 +57,7 @@ body{
 }
 
 .main-project section{
-    height: 180px;
+    height: 150px;
     border: 2px solid rgb(39, 128, 157);
     border-radius: 10px;
     background-size: contain;
