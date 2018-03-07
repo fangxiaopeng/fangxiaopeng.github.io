@@ -7,10 +7,19 @@
             "desc":"一款基于海康威视视频SDK二次开发的Cordova插件，支持Android和IOS两个平台。功能如下：1，播放单路视频（支持指定通道）；2，播放单路/多路视频（自动适配单路/多路）；该插件已发布到npm。"
         },
         {
+            "title":"multi-expandable-list",
+            "link":"https://github.com/fangxiaopeng/multi-expandable-list",
+            "desc":"一款可打开/关闭的二级列表，支持多种类型子布局，包含Android/Web两个版本，代码均有详细注释，欢迎交流讨论！"
+        },
+        {
             "title":"Personal Home Page",
             "link":"https://github.com/fangxiaopeng/fangxiaopeng.github.io",
-            "desc":"开源Github个人主页，分为三个版本：1 native版（原生）2 Vue版3 BootStrap版。麻雀虽小五脏俱全，适合新手学习使用。原生版本迭代开发中，其他版本后续推出，敬请期待！"
+            "desc":"开源Github个人主页，分为三个版本：1、native版（原生）；2、Vue版；3、BootStrap版。麻雀虽小五脏俱全，适合新手学习使用。原生版本已开发完成，其他版本迭代开发中，敬请期待！"
+        },
+        {
+            "title":"AndroidAndJs",
+            "link":"https://github.com/fangxiaopeng/AndroidAndJs",
+            "desc":"本项目已实现Android与Js交互的所有方式，包括：1，Android调用Js（两种）；2，Js调用Android（三种），代码均有详细注释，欢迎交流讨论！"
         }
     ]
 }
-
