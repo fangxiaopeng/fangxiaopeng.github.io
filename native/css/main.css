@@ -140,7 +140,7 @@ body{
         height: calc(100% - 2rem);
         margin: 0;
         padding: 5px;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         color: rgb(39, 128, 157);
         white-space: normal;
     }
@@ -157,7 +157,7 @@ body{
         height: calc(100% - 2rem);
         margin: 0;
         padding: 5px;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         color: rgb(143, 56, 56);
         white-space: normal;
     }
