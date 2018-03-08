@@ -14,12 +14,12 @@
         {
             "title":"Personal Home Page",
             "link":"https://github.com/fangxiaopeng/fangxiaopeng.github.io",
-            "desc":"开源Github个人主页，分为三个版本：1、native版（原生）；2、Vue版；3、BootStrap版。麻雀虽小五脏俱全，适合新手学习使用。原生版本已开发完成，其他版本迭代开发中，敬请期待！"
+            "desc":"开源Github个人主页，分为三个版本：native版（原生）、Vue版 、BootStrap版。麻雀虽小五脏俱全，适合新手学习使用。原生版本已使用三种不同方式实现，其他版本迭代开发中，敬请期待！"
         },
         {
             "title":"AndroidAndJs",
             "link":"https://github.com/fangxiaopeng/AndroidAndJs",
-            "desc":"本项目已实现Android与Js交互的所有方式，包括：1，Android调用Js（两种）；2，Js调用Android（三种），代码均有详细注释，欢迎交流讨论！"
+            "desc":"本项目已实现Android与Js交互的所有方式，包括：Android调用Js（两种）、Js调用Android（三种），附各种方式的原理、优缺点、适用场景等。代码均有详细注释，欢迎交流讨论！"
         }
     ]
 }
