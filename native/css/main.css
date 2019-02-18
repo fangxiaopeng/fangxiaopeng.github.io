@@ -129,21 +129,6 @@ body{
     border-radius: 5px;
 }
 
-.main-message ul{
-    overflow: hidden;
-    padding: 0 !important;
-    margin: 0 !important;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.main-message li{
-    float: left;
-    list-style: none;
-    width: calc(100%/2 - 1rem);
-    padding: 0.5rem;
-}
-
 .main-message h2{
     height: 1rem;
     margin: 0;
@@ -192,6 +177,61 @@ body{
     height: 1px;
     margin: 0 0.5rem;
     background: darkgray;
+}
+
+.f_l{
+    float: left;
+}
+
+.f_r{
+    float: right
+}
+
+.main-message ul{
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 0 2rem 0 !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main-message li{
+    float: left;
+    list-style: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: calc(100% - 1rem);
+}
+
+.msg-user-photo{
+    width: 3rem;
+}
+
+.msg-user-info{
+    height: 3rem;
+    width: calc(100% - 3.5rem);
+    margin-left: 0.5rem;
+    float: right;
+}
+
+.msg-user-info img{
+    width: 1rem;
+}
+
+.msg-user-info span{
+    color: #576b95;
+    font-size: 1rem;
+}
+
+.msg-user-info label{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.msg-content{
+    margin-left: 3.5rem;
+    color: black;
+    font-size: 1rem;
 }
 
 .main-message_input{
