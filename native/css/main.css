@@ -122,6 +122,7 @@ body{
     white-space: normal;
 }
 
+/** 留言板部分样式 - start **/
 .main-message{
     width: 100%;
     border: 1px solid gray;
@@ -151,29 +152,49 @@ body{
     color: gray;
 }
 
-.main-message section{
-    height: 150px;
-    border: 2px solid rgb(39, 128, 157);
-    border-radius: 10px;
-    background-size: contain;
-    box-shadow: 3px 3px 1px #7a7a7a;
-    padding: 0.5rem 0.2rem;
+.msg-head{
+    height: 1.5rem;
+    margin: 1rem 0.5rem 0 0.5rem;
 }
 
-.main-message section a{
-    text-decoration: none;
+.msg-head label{
+    font-size: 0.8rem;
+    color: gray;
 }
 
-.main-message section div{
-    height: calc(100% - 2rem);
-    margin: 0;
-    padding: 5px;
-    font-size: 1rem;
-    color: rgb(39, 128, 157);
-    white-space: normal;
+.msg-title{
+    float: left;
 }
 
-.main-message div{
+.msg-title label{
+    margin-left: 0.2rem;
+}
+
+.msg-desc{
+    float: right;
+}
+
+.desc-num{
+    font-size: 1rem !important;
+    color: black !important;
+}
+
+.line-v{
+    float: left;
+    width: 3px;
+    height: 1.3rem;
+    background: darkgray;
+}
+
+.line-h{
+    clear: both;
+    width: calc(100% - 1rem);
+    height: 1px;
+    margin: 0 0.5rem;
+    background: darkgray;
+}
+
+.main-message_input{
     margin: 0 0.5rem 0.5rem 0.5rem;
 }
 
@@ -192,6 +213,7 @@ body{
     text-align: end;
     font-size: 0.5rem;
     color: lightcoral;
+    margin: 0 0.5rem 1rem 0.5rem;
 }
 
 .main-message_publish label{
@@ -201,6 +223,7 @@ body{
     color: gray;
     padding: 0 0.5rem;
 }
+/** 留言板部分样式 - end **/
 
 .main-view_more{
     text-align: end;
