@@ -122,6 +122,86 @@ body{
     white-space: normal;
 }
 
+.main-message{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.main-message ul{
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main-message li{
+    float: left;
+    list-style: none;
+    width: calc(100%/2 - 1rem);
+    padding: 0.5rem;
+}
+
+.main-message h2{
+    height: 1rem;
+    margin: 0;
+    padding: 5px;
+    font-size: 1rem;
+    color: gray;
+}
+
+.main-message section{
+    height: 150px;
+    border: 2px solid rgb(39, 128, 157);
+    border-radius: 10px;
+    background-size: contain;
+    box-shadow: 3px 3px 1px #7a7a7a;
+    padding: 0.5rem 0.2rem;
+}
+
+.main-message section a{
+    text-decoration: none;
+}
+
+.main-message section div{
+    height: calc(100% - 2rem);
+    margin: 0;
+    padding: 5px;
+    font-size: 1rem;
+    color: rgb(39, 128, 157);
+    white-space: normal;
+}
+
+.main-message div{
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.main-message div textarea{
+    width: calc(100% - 0.5rem);
+    height: 5rem;
+    background: transparent;
+    border-radius: 10px;
+    background-size: contain;
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+    white-space: normal;
+}
+
+.main-message_publish{
+    text-align: end;
+    font-size: 0.5rem;
+    color: lightcoral;
+}
+
+.main-message_publish label{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-size: contain;
+    color: gray;
+    padding: 0 0.5rem;
+}
+
 .main-view_more{
     text-align: end;
     font-size: 0.5rem;
