@@ -106,7 +106,9 @@ var native = {
         return asideHtml;
     },
     buildProjectBox: function (data) {
-        var projectHtml = "<h2>开源项目</h2><ul>";
+        var projectHtml = "<div class='module'>"+
+        "<img class='module-icon' src='../images/icon_github.png'>"+
+        "<span class='module-title'>开源项目</span></div><ul>";
         for (var i = 0, len = data.project_list.length; i < len; i++) {
             projectHtml += "<li>" +
                 "<section>" +
@@ -121,7 +123,9 @@ var native = {
         return projectHtml;
     },
     buildBlogBox: function (data) {
-        var blogHtml = "<h2>博客文章</h2><ul>";
+        var blogHtml = "<div class='module'>"+
+        "<img class='module-icon' src='../images/icon_blog.png'>"+
+        "<span class='module-title'>博客文章</span></div><ul>";
         for (var i = 0, len = data.article_list.length; i < len; i++) {
             blogHtml += "<li>" +
                 "<section>" +
@@ -136,8 +140,11 @@ var native = {
         return blogHtml;
     },
     buildMsgBoardBox: function (data) {
-        var msgBoardHtml = "<h2>留言板</h2><div class='msg-head'>" + 
-                "<div class='msg-title'><div class='line-v'></div><label>热门留言</label></div>" +
+        var msgBoardHtml = "<div class='module'>"+
+        "<img class='module-icon' src='../images/icon_msg_board.png'>"+
+        "<span class='module-title'>留言板</span></div>";
+
+        msgBoardHtml += "<div class='msg-head'><div class='msg-title'><div class='line-v'></div><label>热门留言</label></div>" +
                 "<div class='msg-desc'>" + 
                     "<label class='desc-num'>" + data.joinNum + "</label><label>人参与，</label>" +
                     "<label class='desc-num'>" + data.msgNum + "</label><label>人留言</label>" +
