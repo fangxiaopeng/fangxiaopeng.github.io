@@ -13,10 +13,37 @@ body{
     height: 100%;
 }
 
+.f_l{
+    float: left;
+}
+
+.f_r{
+    float: right
+}
+
 .overflow_omit{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.module{
+    height: 2rem;
+}
+
+.module-icon{
+    width: 1.5rem;
+    margin: 0.4rem 0 0 0.5rem;
+    float: left;
+}
+
+.module-title{
+    color: #808080;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    float: left;
 }
 
 .main-project{
@@ -179,14 +206,6 @@ body{
     background: darkgray;
 }
 
-.f_l{
-    float: left;
-}
-
-.f_r{
-    float: right
-}
-
 .msg-ul-outer{
     overflow: hidden;
     padding: 0 !important;
@@ -288,7 +307,6 @@ body{
 .main-message_publish{
     text-align: end;
     font-size: 0.5rem;
-    color: lightcoral;
     margin: 0 0.5rem 1rem 0.5rem;
 }
 
@@ -297,7 +315,7 @@ body{
     border-radius: 5px;
     background-size: contain;
     color: gray;
-    padding: 0 0.5rem;
+    padding: 0.2rem 0.5rem;
 }
 /** 留言板部分样式 - end **/
 
