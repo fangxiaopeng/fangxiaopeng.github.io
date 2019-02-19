@@ -187,7 +187,7 @@ body{
     float: right
 }
 
-.main-message ul{
+.msg-ul-outer{
     overflow: hidden;
     padding: 0 !important;
     margin: 0 0 2rem 0 !important;
@@ -195,7 +195,7 @@ body{
     text-overflow: ellipsis;
 }
 
-.main-message li{
+.msg-li-outer{
     float: left;
     list-style: none;
     padding: 0.5rem;
@@ -232,6 +232,41 @@ body{
     margin-left: 3.5rem;
     color: black;
     font-size: 1rem;
+    white-space: normal;
+}
+
+.msg-ul-inner{
+    overflow: hidden;
+    padding: 0 !important;
+    margin-left: 3.5rem !important;
+    margin-top: 0.5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.msg-li-inner{
+    list-style: none;
+}
+
+.line-inner-v{
+    float: left;
+    height: 1rem;
+    width: 3px;
+    margin-top: 0.2rem;
+    margin-right: 0.3rem;
+    background: darkgray;
+}
+
+.msg-li-inner label{
+    white-space: normal;
+    color: #576b95;
+    font-size: 0.9rem;
+}
+
+.msg-li-inner span{
+    white-space: normal;
+    color: gray;
+    font-size: 0.9rem;
 }
 
 .main-message_input{
