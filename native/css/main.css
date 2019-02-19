@@ -226,6 +226,7 @@ body{
 .msg-user-info label{
     font-size: 0.8rem;
     color: gray;
+    padding: 0.3rem;
 }
 
 .msg-content{
