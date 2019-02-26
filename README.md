@@ -1,6 +1,6 @@
 # 欢迎来到我的个人主页
 ***
-#### [点击](https://fangxiaopeng.github.io/native/index.html)浏览效果
+#### [点击](https://fangxiaopeng.github.io)浏览效果
 
 ***
 
